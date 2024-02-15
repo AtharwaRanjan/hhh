@@ -1,0 +1,74 @@
+.heart{
+    border-radius: 50%;
+    transition: ease-in-out 0.2s;
+}
+.heart:hover{
+    transform: scale(1.08);
+    transition: ease-in-out 0.3s;
+}
+
+
+.val  {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700px;
+  font-size: 100px;
+  font-style: normal;
+  color: red;
+}
+.ss{
+    font-size: 50px;
+    color: red
+}
+#ss{
+font-size: 30px;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+}
+.bg{
+    background: linear-gradient(-50deg, #162e4e, #46a9db, #1ca686);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+    
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .last-img{
+    height: 900px;
+    width: 432px;
+    padding: 0 300px;
+  }
+  .img-text{
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+    font-family: "Dancing Script", cursive;;
+    opacity: 70%;
+    padding-bottom: 30px;
+  }
+  .img-p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(57, 225, 237);
+  }
+  .ff{
+    color: black;
+  }
+  .omg{
+    font-family: none;
+  }
+  .ru{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .kk{
+    color: #6fd0e4;
+  }
